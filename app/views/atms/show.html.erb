@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @atm.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @atm.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @atm.state %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @atm.zipcode %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @atm.street %>
+</p>
+
+<%= link_to 'Edit', edit_atm_path(@atm) %> |
+<%= link_to 'Back', atms_path %>
